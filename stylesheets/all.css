@@ -1,4 +1,4 @@
-/* line 17, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,38 +19,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -73,24 +73,60 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal; }
 
 /* line 8, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+header h1:after, .block h2:after {
+  border-top: 1px solid #757880;
+  border-bottom: 1px solid #757880;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+/* line 18, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+.info .when .time, .info .where .details {
+  color: #8f9299;
+  font-family: "Waiting for the Sunrise", cursive;
+  font-size: 24px; }
+
+/* line 24, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 11, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+/* line 27, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+a {
+  color: #e7125b;
+  text-decoration: none; }
+
+/* line 31, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
 body {
   color: #757880;
   font-family: "Roboto Slab", sans-serif;
   font-weight: 400;
   min-width: 320px;
-  padding-top: 30px; }
+  overflow-x: hidden;
+  padding-top: 30px;
+  width: 100%; }
 
-/* line 18, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+/* line 40, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
 header {
   margin-bottom: 30px;
   padding: 0 15px; }
-  /* line 22, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  @media screen and (min-width: 700px) {
+    /* line 40, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    header {
+      -webkit-transform: scale(1.2, 1.2);
+      -moz-transform: scale(1.2, 1.2);
+      -ms-transform: scale(1.2, 1.2);
+      -o-transform: scale(1.2, 1.2);
+      transform: scale(1.2, 1.2); } }
+  /* line 47, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   header h1 {
     color: #e7125b;
     font-family: "Ostrich", sans-serif;
@@ -100,22 +136,10 @@ header {
     position: relative;
     text-align: center;
     text-shadow: 2px 0 0 white, -2px 0 0 white; }
-    /* line 32, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 57, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
     header h1:after {
-      border-top: 1px solid #757880;
-      border-bottom: 1px solid #757880;
-      bottom: 0;
-      content: "";
-      height: 2px;
-      left: 50%;
-      position: absolute;
-      -webkit-transform: translateX(-50%);
-      -moz-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      -o-transform: translateX(-50%);
-      transform: translateX(-50%);
       width: 300px; }
-    /* line 43, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 61, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
     header h1 i {
       border: 1px solid #757880;
       -webkit-border-radius: 100%;
@@ -144,107 +168,94 @@ header {
       top: 0px;
       width: 64px;
       z-index: -1; }
-  /* line 59, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 77, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   header p {
     font: 400 18px "Roboto Slab", sans-serif;
     color: #757880;
     text-align: center;
     text-transform: uppercase; }
 
-/* line 66, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+/* line 84, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
 .image img {
   max-width: 100%; }
 
-/* line 72, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
-.info .when {
+/* line 90, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+.info .when,
+.info .where {
   border-bottom: 1px solid #f0f0f0;
   padding-top: 30px;
   padding-bottom: 30px; }
   @media screen and (min-width: 700px) {
-    /* line 72, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
-    .info .when {
-      border-bottom: none;
-      border-right: 1px solid #f0f0f0;
-      float: left;
-      padding-bottom: 60px;
-      padding-top: 57px;
-      width: 50%; } }
-  /* line 86, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
-  .info .when p {
-    float: left;
-    font-size: 20px;
-    line-height: 1.3;
-    text-align: right;
-    text-transform: uppercase;
-    width: 53%; }
-  /* line 94, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
-  .info .when b {
-    display: block; }
-  /* line 97, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
-  .info .when .year {
-    color: #2096b4;
-    display: block;
-    font: 64px/1 "Ostrich", sans-serif;
-    padding-left: 20px;
-    text-align: left;
-    width: 47%; }
-  /* line 105, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
-  .info .when .time {
-    color: #e7125b;
-    float: none;
-    font-family: "Waiting for the Sunrise", cursive;
-    font-size: 24px;
-    width: 100%;
-    text-align: center;
-    text-transform: none; }
-/* line 114, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
-.info .where {
-  border-bottom: 1px solid #f0f0f0;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  text-align: center; }
-  @media screen and (min-width: 700px) {
-    /* line 114, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 90, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    .info .when,
     .info .where {
       border-bottom: none;
+      float: left;
       padding-bottom: 60px;
       padding-top: 60px;
-      float: left;
       width: 50%; } }
-  /* line 127, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+@media screen and (min-width: 700px) {
+  /* line 103, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  .info .when {
+    border-right: 1px solid #f0f0f0;
+    padding-top: 57px; } }
+/* line 110, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+.info .when p {
+  float: left;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: right;
+  text-transform: uppercase;
+  width: 53%; }
+/* line 118, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+.info .when b {
+  display: block; }
+/* line 121, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+.info .when .year {
+  color: #2096b4;
+  display: block;
+  font: 64px/1 "Ostrich", sans-serif;
+  padding-left: 20px;
+  text-align: left;
+  width: 47%; }
+/* line 129, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+.info .when .time {
+  float: none;
+  width: 100%;
+  text-align: center;
+  text-transform: none; }
+/* line 136, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+.info .where {
+  text-align: center; }
+  /* line 139, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .info .where .location {
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 6px; }
-  /* line 132, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 144, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .info .where .address {
     font-size: 19px;
     margin-bottom: 14px;
     text-transform: uppercase; }
-  /* line 137, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
-  .info .where .details {
-    color: #e7125b;
-    font-family: "Waiting for the Sunrise", cursive;
-    font-size: 24px; }
 
-/* line 142, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+/* line 152, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
 .map {
   display: block;
   height: 200px;
   width: 100%; }
   @media screen and (min-width: 700px) {
-    /* line 142, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 152, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
     .map {
       height: 400px; } }
 
-/* line 150, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+/* line 160, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
 .block {
   padding: 45px 15px; }
   @media screen and (min-width: 700px) {
-    /* line 150, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 160, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
     .block {
       padding: 60px 15px; } }
-  /* line 156, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 166, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .block h2 {
     color: #2096b4;
     font: 44px "Ostrich", sans-serif;
@@ -253,54 +264,40 @@ header {
     position: relative;
     text-transform: uppercase;
     text-align: center; }
-    /* line 165, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 175, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
     .block h2:after {
-      border-top: 1px solid #757880;
-      border-bottom: 1px solid #757880;
-      bottom: 0;
-      content: "";
-      height: 2px;
-      left: 50%;
-      position: absolute;
-      -webkit-transform: translateX(-50%);
-      -moz-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      -o-transform: translateX(-50%);
-      transform: translateX(-50%);
       width: 240px; }
-  /* line 176, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 179, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .block h3 {
     margin-top: 30px;
     margin-bottom: 5px; }
-  /* line 180, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 183, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .block a {
-    color: #e7125b;
-    text-decoration: none;
     text-transform: uppercase; }
-  /* line 185, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 186, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .block p {
     font-size: 14px;
     line-height: 1.6; }
-  /* line 189, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 190, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .block .alt {
     font: 18px "Waiting for the Sunrise", cursive; }
 
 @media screen and (min-width: 700px) {
-  /* line 195, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 196, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .accomodations .location {
     padding-left: 20%;
     float: left;
     width: 50%; }
-    /* line 200, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 201, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
     .accomodations .location:last-child {
       padding-left: 10%; } }
 
 @media screen and (min-width: 700px) {
-  /* line 203, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 204, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .travel {
     text-align: center; } }
 
-/* line 210, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+/* line 211, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
 .registry img {
   display: block;
   margin: 45px auto;
@@ -308,21 +305,17 @@ header {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
   opacity: 0.75; }
 @media screen and (min-width: 700px) {
-  /* line 217, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 218, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .registry li {
     float: left;
     width: 50%; }
-    /* line 221, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 222, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
     .registry li:first-child {
       padding-top: 15px; } }
 
-/* line 224, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+/* line 225, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
 footer {
   background: #f0f0f0;
   line-height: 1.5;
   padding: 15px;
   text-align: center; }
-  /* line 230, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
-  footer a {
-    color: #e7125b;
-    text-decoration: none; }
