@@ -4,6 +4,7 @@
   markerPoint = new google.maps.LatLng(40.019392, -105.279429);
 
   mapOptions = {
+    scrollWheel: false,
     zoom: 16,
     center: markerPoint,
     styles: [
