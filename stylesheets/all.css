@@ -1,4 +1,4 @@
-/* line 17, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,38 +19,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, /usr/local/opt/rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, /Users/markupboy/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -248,14 +248,34 @@ header {
     .map {
       height: 400px; } }
 
-/* line 160, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+@media screen and (min-width: 700px) {
+  /* line 160, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  .two-up {
+    overflow: hidden;
+    position: relative;
+    width: 100%; }
+    /* line 166, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    .two-up:after {
+      border-right: 1px solid #f0f0f0;
+      content: "";
+      height: 100%;
+      left: 50%;
+      min-height: 100%;
+      position: absolute;
+      top: 0; }
+    /* line 176, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    .two-up .block {
+      float: left;
+      width: 50%; } }
+
+/* line 181, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
 .block {
   padding: 45px 15px; }
   @media screen and (min-width: 700px) {
-    /* line 160, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 181, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
     .block {
       padding: 60px 15px; } }
-  /* line 166, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 187, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .block h2 {
     color: #2096b4;
     font: 44px "Ostrich", sans-serif;
@@ -264,40 +284,42 @@ header {
     position: relative;
     text-transform: uppercase;
     text-align: center; }
-    /* line 175, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 196, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
     .block h2:after {
       width: 240px; }
-  /* line 179, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 200, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .block h3 {
     margin-top: 30px;
     margin-bottom: 5px; }
-  /* line 183, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 204, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .block a {
     text-transform: uppercase; }
-  /* line 186, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 207, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .block p {
     font-size: 14px;
     line-height: 1.6; }
-  /* line 190, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 211, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .block .alt {
     font: 18px "Waiting for the Sunrise", cursive; }
 
 @media screen and (min-width: 700px) {
-  /* line 196, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 217, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .accomodations .location {
     padding-left: 20%;
     float: left;
     width: 50%; }
-    /* line 201, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 222, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
     .accomodations .location:last-child {
       padding-left: 10%; } }
 
 @media screen and (min-width: 700px) {
-  /* line 204, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
-  .travel {
-    text-align: center; } }
+  /* line 227, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  .travel .content,
+  .parking .content {
+    margin: 0 auto;
+    width: 240px; } }
 
-/* line 211, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+/* line 235, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
 .registry img {
   display: block;
   margin: 45px auto;
@@ -305,15 +327,15 @@ header {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
   opacity: 0.75; }
 @media screen and (min-width: 700px) {
-  /* line 218, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+  /* line 242, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
   .registry li {
     float: left;
     width: 50%; }
-    /* line 222, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+    /* line 246, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
     .registry li:first-child {
       padding-top: 15px; } }
 
-/* line 225, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
+/* line 249, /Users/markupboy/Dropbox/Sites/blakeanderin/site/source/stylesheets/all.sass */
 footer {
   background: #f0f0f0;
   line-height: 1.5;
