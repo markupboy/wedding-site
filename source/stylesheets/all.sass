@@ -157,6 +157,27 @@ header
   @media screen and (min-width: 700px)
     height: 400px
 
+.two-up
+  @media screen and (min-width: 700px)
+    overflow: hidden
+    position: relative
+    width: 100%
+
+    &:after
+      border-right: 1px solid $gray
+      content: ""
+      height: 100%
+      left: 50%
+      min-height: 100%
+      position: absolute
+      top: 0
+
+
+    .block
+      float: left
+      width: 50%
+
+
 .block
   padding: 45px 15px
 
@@ -201,9 +222,12 @@ header
       &:last-child
         padding-left: 10%
 
-.travel
-  @media screen and (min-width: 700px)
-    text-align: center
+.travel,
+.parking
+  .content
+    @media screen and (min-width: 700px)
+      margin: 0 auto
+      width: 240px
 
 .registry
   @extend %clearfix
