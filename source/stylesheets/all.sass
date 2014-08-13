@@ -61,7 +61,7 @@ header
     i
       border: 1px solid $neutral
       +border-radius(100%)
-      color: $neutral
+      color: $teal
       font: italic 24px $serif-font
       height: 64px
       +inline-block
@@ -81,8 +81,39 @@ header
     text-transform: uppercase
 
 .image
+  position: relative
   img
     max-width: 100%
+
+.logo
+  background: url(/images/logo.png)
+  background-size: cover
+  bottom: 25px
+  display: block
+  height: 200px
+  position: absolute
+  right: 25px
+  width: 200px
+
+  @media screen and (max-width: 1000px)
+    height: 175px
+    width: 175px
+
+  @media screen and (max-width: 800px)
+    bottom: 20px
+    height: 150px
+    right: 20px
+    width: 150px
+
+  @media screen and (max-width: 650px)
+    height: 125px
+    width: 125px
+
+  @media screen and (max-width: 500px)
+    bottom: 15px
+    height: 100px
+    right: 15px
+    width: 100px
 
 .info
   @extend %clearfix
@@ -227,7 +258,20 @@ header
   .content
     @media screen and (min-width: 700px)
       margin: 0 auto
-      width: 240px
+      max-width: 240px
+
+.menu
+  li
+    color: lighten($neutral, 25%)
+    line-height: 1.4
+    margin: 0 auto 1em
+
+    @media screen and (min-width: 700px)
+      max-width: 270px
+
+
+    strong
+      color: $neutral
 
 .registry
   @extend %clearfix

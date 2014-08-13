@@ -3,13 +3,13 @@ title: Blake and Erin
 ---
 
 %header
-  %h1
-    Erin
-    %i and
-    Blake
-  %p Invite you to celebrate at their wedding
+  :markdown
+    # Erin <i>and</i> Blake
+
+    Invite you to celebrate at their wedding
 
 .image
+  %span.logo
   %img{ src: 'images/erin-blake016.jpg' }
 
 .info
@@ -32,74 +32,85 @@ title: Blake and Erin
   %h2 Accomodations
 
   .location
-    %h3
-      %a{ href: 'http://boulderado.com/' }
-        Hotel Boulderado
-    %p 2115 13th St, Boulder, CO
-    %p (303) 442-4344
-    %p Reference booking ID 15453
+    :markdown
+      ###[Hotel Boulderado](http://boulderado.com/)
+
+      2115 13th St, Boulder, CO
+
+      (303) 442-4344
+
+      Reference booking ID 15453
+
     %p.alt Rooms starting from $182
 
   .location
-    %h3
-      %a{ href: 'http://www.qualityinnboulder.com/'}
-        Quality Inn Boulder Creek
-    %p 2020 Arapahoe Ave., Boulder, CO
-    %p (888) 449-7550
-    %p Reference the Kane Walters wedding
+    :markdown
+      ###[Quality Inn Boulder Creek](http://www.qualityinnboulder.com/)
+
+      2020 Arapahoe Ave., Boulder, CO
+
+      (888) 449-7550
+
+      Reference the Kane Walters wedding
+
     %p.alt Rooms starting from $118
 
 .image
   %img{ src: 'images/erin-blake070.jpg' }
 
 .two-up
+  .block.menu
+    :markdown
+      ## Dinner Menu
+
+      * __Tenderloin of beef__ with green peppercorn sauce
+      * __Seared Colorado striped bass__ with braised swiss chard and chive beurre blanc
+      * __Seasonal fresh vegetable tartlet__ with haystack mountain goat cheese
+
+  .block.registry
+    %h2 Registry
+
+    %p
+      %a{ href: 'http://www.crateandbarrel.com/' }
+        %img{ src: 'images/crate-barrel-logo.jpg' }
+    %p
+      %a{ href: 'http://www.bedbathandbeyond.com/' }
+        %img{ src: 'images/bed-bath-and-beyond-logo.png' }
+
+.image
+  %img{ src: 'images/erin-blake030.jpg' }
+
+
+.two-up
   .block.alt.travel
     %h2 Transportation
 
     .content
-      %h3
-        %a{ href: 'http://greenrideboulder.com/' }
-          Green Ride Boulder
-      %p Direct service from DIA to Boulder Hotels
+      :markdown
+        ###[Green Ride Boulder](http://greenrideboulder.com/)
 
-      %h3
-        %a{ href: 'https://www.supershuttle.com/' }
-          SuperShuttle
-      %p Direct service from DIA to Boulder Hotels
+        Direct service from DIA to Boulder Hotels
+
+        ###[SuperShuttle](https://www.supershuttle.com/)
+
+        Direct service from DIA to Boulder Hotels
 
   .block.parking
     %h2 Parking
 
     .content
-      %h3
-        %a{ href: 'http://boulderado.com/guest-services/transportation-parking/' }
-          Hotel Boulderado Valet
-      %p
+      :markdown
+        ###[Hotel Boulderado Valet](http://boulderado.com/guest-services/transportation-parking/)
+
         On-site valet parking is available for $10/night
 
-      %h3
-        %a{ href: 'https://www.google.com/maps/place/11th+and+Spruce+Parking+Garage/@40.018753,-105.280794,19z/data=!3m1!4b1!4m2!3m1!1s0x876bec27a9f07dd1:0xe561e118a6b26c3d' }
-          City of Boulder
-      %p
+        ###[City of Boulder](https://www.google.com/maps/place/11th+and+Spruce+Parking+Garage/@40.018753,-105.280794,19z/data=!3m1!4b1!4m2!3m1!1s0x876bec27a9f07dd1:0xe561e118a6b26c3d)
+
         Nearby garage at 11th and Spruce offers free parking on Saturday and Sunday
 
 
-.image
-  %img{ src: 'images/erin-blake030.jpg' }
-
-.block.registry
-  %h2 Registry
-
-  %ul
-    %li
-      %a{ href: 'http://www.crateandbarrel.com/' }
-        %img{ src: 'images/crate-barrel-logo.jpg' }
-    %li
-      %a{ href: 'http://www.bedbathandbeyond.com/' }
-        %img{ src: 'images/bed-bath-and-beyond-logo.png' }
-
 %footer
-  %p
+  :markdown
     Questions? Send an email to
-    %a{ href: "mailto:wedding@blakeanderin.com" } wedding@blakeanderin.com
+    [wedding@blakeanderin.com](mailto:wedding@blakeanderin.com)
 
