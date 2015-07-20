@@ -2,7 +2,7 @@ variable "access_key" {}
 variable "secret_key" {}
 
 atlas {
-  name = "markupboy/blakeanderin"
+  name = "markupboy/blakeanderin.com"
 }
 
 # Configure the AWS Provider
