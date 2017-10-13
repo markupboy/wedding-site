@@ -1,3 +1,4 @@
+activate :asset_hash
 ###
 # Compass
 ###
@@ -39,11 +40,17 @@
 # activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def inline_svg name
+    root = Middleman::Application.root
+    file_path = "#{root}/source/images/#{name}.svg"
+    if File.exists?(file_path)
+      File.read(file_path)
+    else
+      "<span class='icon-error'>Icon #{name} not found</span>"
+    end
+  end
+end
 
 set :css_dir, 'stylesheets'
 

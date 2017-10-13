@@ -5,6 +5,30 @@
 @import "type"
 @import "variables"
 
+.banner
+  background: $teal
+  color: white
+  display: block
+  font-size: 1.6em
+  padding: 15px 0
+  margin-bottom: 30px
+  text-align: center
+
+  &:hover
+    background: $red
+
+  svg
+    height: 40px
+
+  path
+    fill: white
+    stroke: white
+
+  span
+    padding: 0 15px
+    position: relative
+    top: -10px
+
 %flourish-lines
   border-top: 1px solid $neutral
   border-bottom: 1px solid $neutral
@@ -34,7 +58,6 @@ body
   font-weight: 400
   min-width: 320px
   overflow-x: hidden
-  padding-top: 30px
   width: 100%
 
 header

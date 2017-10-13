@@ -7,4 +7,3 @@ gem "compass"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
-
